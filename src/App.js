@@ -16,7 +16,14 @@ function App() {
   const about = useRef(null);
   const top = useRef(null);
   const project = useRef(null);
-  const scrollRef = { skill: skill, about: about, top: top, project: project };
+  const contact = useRef(null);
+  const scrollRef = {
+    skill: skill,
+    about: about,
+    top: top,
+    project: project,
+    contact: contact,
+  };
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -34,15 +41,15 @@ function App() {
           darkMode={darkMode}
           setDarkMode={setDarkMode}
         />
-        
+
         <Hero />
-        <About about={about}/>
+        <About about={about} contact={contact} scrollToSection={scrollToSection}/>
         <Skill skill={skill} />
-        <Project project={project}/>
-        <Contact/>
+        <Project project={project} />
+        <Contact contact={contact}/>
       </div>
       <div className=" text-center dark:text-white text-sm bg-teal-500 py-3">
-            This website was made by @Beondevvv        
+        This website was made by @Beondevvv
       </div>
     </div>
   );

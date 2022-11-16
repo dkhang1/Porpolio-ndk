@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import cv from "../assets/pdf/NDK-CV.pdf";
 
 export default function Header(props) {
   const {setDarkMode, darkMode, scrollToSection, scrollRef} = props;
@@ -30,7 +31,7 @@ export default function Header(props) {
           <li>
             <a
               className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-5 py-3 rounded-md"
-              href="#"
+              href={cv}
             >
               Resume
             </a>
