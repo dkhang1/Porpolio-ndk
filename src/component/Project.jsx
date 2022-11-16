@@ -23,7 +23,7 @@ export default function Project(props) {
             height={"100%"}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent rounded-md to-black/5 group-hover:from-black/80 group-hover:via-black/60 group-hover:to-black/80 transition-all"></div>
-          <div className=" absolute inset-0 flex flex-col items-start justify-center px-9 translate-y-[250px] group-hover:translate-y-0 transition-all">
+          <div className=" absolute inset-0 flex flex-col items-start justify-center px-9 translate-y-[300px] group-hover:translate-y-0 transition-all">
             <h2 className="text-xl pb-10 sm:pb-0 sm:text-2xl font-semibold text-teal-500 ">
               Sneaker eCommerce Website
             </h2>
@@ -57,7 +57,7 @@ export default function Project(props) {
             height={"100%"}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent rounded-md to-black/5 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70 transition-all"></div>
-          <div className=" absolute inset-0 flex flex-col items-start justify-center px-9 translate-y-[250px] group-hover:translate-y-0 transition-all">
+          <div className=" absolute inset-0 flex flex-col items-start justify-center px-9 translate-y-[300px] group-hover:translate-y-0 transition-all">
           <h2 className="text-xl pb-10 sm:pb-0 sm:text-2xl font-semibold text-teal-500 ">
               Fiverr Website Clone
             </h2>
@@ -90,7 +90,7 @@ export default function Project(props) {
             height={"100%"}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent rounded-md to-black/5 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70 transition-all"></div>
-          <div className=" absolute inset-0 flex flex-col items-start justify-center px-9 translate-y-[250px] group-hover:translate-y-0 transition-all">
+          <div className=" absolute inset-0 flex flex-col items-start justify-center px-9 translate-y-[300px] group-hover:translate-y-0 transition-all">
           <h2 className="text-xl pb-10 sm:pb-0 sm:text-2xl font-semibold text-teal-500 ">
               My Portfolio Website
             </h2>
