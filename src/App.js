@@ -1,5 +1,7 @@
 import { useRef, useState } from "react";
 import "../src/index.css";
+import About from "./component/About";
+import Contact from "./component/Contact";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
 import Project from "./component/Project";
@@ -32,9 +34,15 @@ function App() {
           darkMode={darkMode}
           setDarkMode={setDarkMode}
         />
+        
         <Hero />
+        <About about={about}/>
         <Skill skill={skill} />
         <Project project={project}/>
+        <Contact/>
+      </div>
+      <div className=" text-center dark:text-white text-sm bg-teal-500 py-3">
+            This website was made by @Beondevvv        
       </div>
     </div>
   );
